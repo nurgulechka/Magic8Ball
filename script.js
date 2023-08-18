@@ -22,14 +22,16 @@ const possibleAnswers = [
 ];
 
 //variables
-const magic8ballForm = document.getElementById("magic8ball-form");
+const magicballForm = document.getElementById("magicball-form");
 const question = document.getElementById("question");
 const answer = document.getElementById("answer");
+const magicballImage = document.getElementById("magicball-image");
 
-magic8ballForm.addEventListener("submit", function (event) {
+magicballForm.addEventListener("submit", function (event) {
     event.preventDefault(); //prevent reloading
     const i = Math.floor(Math.random() * possibleAnswers.length); //random index
     const randAnswer = possibleAnswers[i]; //answer from list using ranfom index
     answer.textContent = randAnswer; //placing the text into answer element into our html
     question.value = ""; // Clear the input field
+    magicballImage.style.display = "none"; //make the "8" disappear
 });

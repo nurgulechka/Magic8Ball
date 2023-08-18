@@ -2,18 +2,27 @@
 <html>
 
 <head>
+    <title>Magic 8 Ball</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <form id="magic8ball-form">
+    <!-- form for submitting 
+        answers from the user 
+        circle-1 refers to black circle
+        circle-2 refers to white circle inside
+        and the image of "8" digit is added
+        after sumbitting question by pressing button
+        answer is appeared -->
+    <form id="magicball-form">
         <div class=" circle-1">
             <div class="circle-2">
+                <img id="magicball-image" src="8.png">
                 <div id="answer"></div>
             </div>
         </div>
         <input type="text" id="question" required>
-        <button type="submit">ASK ME ANYTHING </button>
+        <button type="submit" id="submitButton">ASK ME ANYTHING </button>
     </form>
     <script src="script.js"></script>
 </body>

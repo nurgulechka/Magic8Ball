@@ -7,7 +7,7 @@ body{
     justify-content: center; 
     text-align: center;
 }
-#magic8ball-form{
+#magicball-form{
     display: grid;
     grid-row-gap: 24px;
 }
@@ -33,7 +33,29 @@ body{
     /* margin: -150px 0px 0px -150px; */
    
 }
+#magicball-image{
+    width: 200px;
+}
+#question{
+    width: 300px;
+    justify-self: center;
+}
+#submitButton{
+    width: 200px;
+    height: 80px;
+    font-size: 1.5em;
+    font: black;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ccc;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    
+}
 #answer{
     position:relative;
     font-size: 1.5em;
+    
 }
