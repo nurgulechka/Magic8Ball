@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    display: grid;
+    margin: auto;
+    padding-top: 5em;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+#magic8ball-form{
+    display: grid;
+    grid-row-gap: 24px;
+}
+.circle-1 {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color:black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.circle-2 {
+    position:relative;
+    height: 300px;
+    width: 300px;
+    background-color:white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: -150px 0px 0px -150px; */
+   
+}
+#answer{
+    position:relative;
+    font-size: 1.5em;
+}
